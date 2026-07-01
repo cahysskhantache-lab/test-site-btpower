@@ -23,8 +23,8 @@ export function ContactForm() {
       onSubmit={onSubmit}
     >
       <div className="grid gap-5 sm:grid-cols-2">
-        <Field label="Nom" name="lastName" autoComplete="family-name" required />
         <Field label="Prénom" name="firstName" autoComplete="given-name" required />
+        <Field label="Nom" name="lastName" autoComplete="family-name" required />
       </div>
       <Field label="Entreprise" name="company" autoComplete="organization" required />
       <div className="grid gap-5 sm:grid-cols-2">

@@ -39,3 +39,5 @@ export const homeFaqItems = [
       "Vous pouvez transmettre votre demande via le formulaire de contact, par e-mail ou par téléphone. Plus les éléments fournis sont précis, plus l'étude pourra être adaptée à votre projet."
   }
 ] as const;
+
+export const contactFaqItems = homeFaqItems.slice(0, 6);

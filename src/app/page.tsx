@@ -1,9 +1,7 @@
-import { ArrowRight, Award, Building2, Factory, HelpCircle, Home, Landmark, PlayCircle } from "lucide-react";
+import { ArrowRight, Award, Building2, Factory, Home, Landmark, PlayCircle } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
-import { CTASection } from "@/components/sections/CTASection";
 import { SectionHeader } from "@/components/ui/SectionHeader";
-import { homeFaqItems } from "@/data/faq";
 import { mediaConfig } from "@/data/mediaConfig";
 import { homeMethodSteps } from "@/data/method";
 import { siteConfig } from "@/data/siteConfig";
@@ -286,33 +284,40 @@ export default function HomePage() {
         </div>
       </section>
 
-      <section className="bg-paper py-20">
+      <section className="bg-white py-20">
         <div className="page-shell">
-          <div className="flex h-11 w-11 items-center justify-center rounded-md bg-electric/10 text-deepblue">
-            <HelpCircle aria-hidden="true" className="h-5 w-5" />
-          </div>
-          <SectionHeader
-            eyebrow="FAQ"
-            title="Vos questions fréquentes"
-            description="Retrouvez les réponses aux principales questions avant de démarrer votre projet."
-          />
-          <div className="mt-10 grid gap-4 lg:grid-cols-2">
-            {homeFaqItems.map((item) => (
-              <details key={item.question} className="group rounded-lg border border-line bg-white p-5 shadow-sm">
-                <summary className="cursor-pointer list-none text-lg font-black leading-7 text-deepblue">
-                  <span className="inline-flex w-full items-start justify-between gap-4">
-                    {item.question}
-                    <span className="mt-1 text-electric transition group-open:rotate-45">+</span>
-                  </span>
-                </summary>
-                <p className="mt-4 leading-8 text-muted">{item.answer}</p>
-              </details>
-            ))}
+          <div className="relative min-h-[460px] overflow-hidden rounded-lg bg-deepblue text-white shadow-soft">
+            <Image
+              src={mediaConfig.afterSales.path}
+              alt={mediaConfig.afterSales.alt}
+              fill
+              sizes="100vw"
+              className="object-cover"
+              style={{ objectPosition: "center center" }}
+            />
+            <div className="absolute inset-0 bg-deepblue/64" />
+            <div className="absolute inset-0 bg-[linear-gradient(90deg,rgba(18,56,33,0.96),rgba(18,56,33,0.68),rgba(18,56,33,0.18))]" />
+            <div className="relative z-10 flex min-h-[460px] items-center px-6 py-12 sm:px-8 lg:px-12">
+              <div className="max-w-3xl">
+                <p className="text-sm font-black uppercase text-electric">Contact</p>
+                <h2 className="mt-4 text-4xl font-black leading-tight sm:text-5xl">
+                  Parlons de votre projet électrique.
+                </h2>
+                <p className="mt-6 max-w-2xl text-lg leading-8 text-white/82 sm:text-xl">
+                  Une demande de devis, une question technique ou un projet à étudier ? Nos équipes sont disponibles pour vous accompagner.
+                </p>
+                <Link
+                  href="/contact#demande-devis"
+                  className="focus-ring mt-8 inline-flex min-h-12 items-center justify-center rounded-md bg-electric px-6 py-3 font-bold text-deepblue transition hover:bg-white"
+                >
+                  Demander un devis gratuit
+                  <ArrowRight aria-hidden="true" className="ml-2 h-5 w-5" />
+                </Link>
+              </div>
+            </div>
           </div>
         </div>
       </section>
-
-      <CTASection title="Un projet de tableau électrique ?" buttonLabel="Nous contacter" />
     </>
   );
 }
