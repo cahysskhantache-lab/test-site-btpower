@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 560" role="img" aria-labelledby="title desc">
+  <title id="title">Projet exemple logement</title>
+  <desc id="desc">Illustration de distribution et comptage pour un programme collectif.</desc>
+  <rect width="900" height="560" fill="#f7f8f6"/>
+  <rect x="130" y="90" width="640" height="380" rx="8" fill="#ffffff" stroke="#d9e2ec" stroke-width="3"/>
+  <path d="M225 470V155h450v315" fill="none" stroke="#0b2545" stroke-width="5"/>
+  <path d="M275 215h110v95H275zM515 215h110v95H515zM275 345h110v95H275zM515 345h110v95H515z" fill="#e9eef3" stroke="#0969da" stroke-width="4"/>
+  <circle cx="450" cy="280" r="47" fill="#ffffff" stroke="#ffb020" stroke-width="8"/>
+  <path d="M450 235v45l32 24" stroke="#0b2545" stroke-width="7" stroke-linecap="round" fill="none"/>
+  <path d="M385 263H275M515 263h-65M385 390H275M515 390h-65" stroke="#13b981" stroke-width="7" stroke-linecap="round"/>
+</svg>

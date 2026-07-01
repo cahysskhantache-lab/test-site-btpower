@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 560" role="img" aria-labelledby="title desc">
+  <title id="title">Projet exemple industriel</title>
+  <desc id="desc">Illustration d'une armoire électrique industrielle.</desc>
+  <rect width="900" height="560" fill="#f7f8f6"/>
+  <rect x="80" y="80" width="740" height="400" rx="8" fill="#ffffff" stroke="#d9e2ec" stroke-width="3"/>
+  <rect x="170" y="120" width="220" height="320" fill="#ffffff" stroke="#0b2545" stroke-width="5"/>
+  <rect x="445" y="120" width="285" height="320" fill="#ffffff" stroke="#0b2545" stroke-width="5"/>
+  <path d="M205 175h150M205 240h150M205 305h150M205 370h150" stroke="#0969da" stroke-width="13" stroke-linecap="round"/>
+  <path d="M490 190h200M490 255h200M490 320h200" stroke="#e9eef3" stroke-width="28" stroke-linecap="round"/>
+  <path d="M495 190h70c55 0 55 130 110 130h25" fill="none" stroke="#ffb020" stroke-width="7" stroke-linecap="round"/>
+  <path d="M495 255h60c60 0 60 90 120 90h35" fill="none" stroke="#13b981" stroke-width="7" stroke-linecap="round"/>
+  <circle cx="230" cy="420" r="11" fill="#13b981"/>
+  <circle cx="270" cy="420" r="11" fill="#ffb020"/>
+  <circle cx="310" cy="420" r="11" fill="#0969da"/>
+</svg>

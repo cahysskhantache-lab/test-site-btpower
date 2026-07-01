@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 560" role="img" aria-labelledby="title desc">
+  <title id="title">Projet exemple tertiaire</title>
+  <desc id="desc">Illustration de tableaux divisionnaires dans un bâtiment tertiaire.</desc>
+  <rect width="900" height="560" fill="#f7f8f6"/>
+  <path d="M130 450V130h620v320" fill="#ffffff" stroke="#0b2545" stroke-width="5"/>
+  <path d="M200 450V210h120v240M390 450V170h120v280M580 450V250h120v200" fill="#e9eef3" stroke="#0969da" stroke-width="4"/>
+  <path d="M220 260h80M220 310h80M220 360h80M410 225h80M410 275h80M410 325h80M600 305h80M600 355h80" stroke="#0b2545" stroke-width="9" stroke-linecap="round"/>
+  <path d="M260 210v-45h190v-45M450 170v-50h190v130" fill="none" stroke="#ffb020" stroke-width="7" stroke-linecap="round"/>
+  <path d="M130 450h620" stroke="#13b981" stroke-width="9" stroke-linecap="round"/>
+</svg>

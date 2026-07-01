@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 760" role="img" aria-labelledby="title desc">
+  <title id="title">Illustration d'atelier électrique</title>
+  <desc id="desc">Illustration neutre d'un atelier avec armoires électriques et lignes techniques.</desc>
+  <rect width="1200" height="760" fill="#f7f8f6"/>
+  <path d="M0 620h1200v140H0z" fill="#e9eef3"/>
+  <path d="M90 120h1020v500H90z" fill="#ffffff" stroke="#d9e2ec" stroke-width="3"/>
+  <path d="M90 210h1020M90 300h1020M90 390h1020M90 480h1020" stroke="#e1e8ef" stroke-width="2"/>
+  <path d="M210 620V180h190v440M470 620V150h250v470M800 620V220h190v400" fill="#ffffff" stroke="#0b2545" stroke-width="5"/>
+  <path d="M238 230h134v64H238zM238 330h134v64H238zM238 430h134v64H238z" fill="#e9eef3" stroke="#0969da" stroke-width="4"/>
+  <path d="M510 205h170v62H510zM510 310h170v62H510zM510 415h170v62H510z" fill="#e9eef3" stroke="#0969da" stroke-width="4"/>
+  <path d="M828 270h134v64H828zM828 370h134v64H828z" fill="#e9eef3" stroke="#0969da" stroke-width="4"/>
+  <path d="M315 262h70c50 0 50 80 100 80h25M595 236v58M595 341v58M595 446v75h235" fill="none" stroke="#ffb020" stroke-width="7" stroke-linecap="round"/>
+  <path d="M850 515h86M850 540h86M850 565h86" stroke="#13b981" stroke-width="8" stroke-linecap="round"/>
+  <path d="M145 650h910" stroke="#0b2545" stroke-width="5" stroke-linecap="round"/>
+  <circle cx="275" cy="530" r="14" fill="#13b981"/>
+  <circle cx="330" cy="530" r="14" fill="#ffb020"/>
+  <circle cx="385" cy="530" r="14" fill="#0969da"/>
+  <circle cx="1010" cy="176" r="34" fill="#0969da" opacity=".13"/>
+  <path d="M980 176h60M1010 146v60" stroke="#0969da" stroke-width="5" stroke-linecap="round" opacity=".55"/>
+</svg>

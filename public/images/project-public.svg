@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 560" role="img" aria-labelledby="title desc">
+  <title id="title">Projet exemple équipement public</title>
+  <desc id="desc">Illustration d'un TGBT pour un équipement collectif.</desc>
+  <rect width="900" height="560" fill="#f7f8f6"/>
+  <path d="M120 455h660V165L450 70 120 165v290Z" fill="#ffffff" stroke="#0b2545" stroke-width="5"/>
+  <path d="M195 455V215h150v240M375 455V185h150v270M555 455V215h150v240" fill="#e9eef3" stroke="#0969da" stroke-width="4"/>
+  <path d="M220 260h100M220 315h100M220 370h100M400 230h100M400 285h100M400 340h100M580 260h100M580 315h100M580 370h100" stroke="#0b2545" stroke-width="9" stroke-linecap="round"/>
+  <path d="M270 215v-40h180v-55M450 185v-65M630 215v-40H450" stroke="#ffb020" stroke-width="7" stroke-linecap="round" fill="none"/>
+  <circle cx="450" cy="120" r="18" fill="#13b981"/>
+</svg>
