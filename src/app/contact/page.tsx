@@ -1,12 +1,13 @@
 import type { Metadata } from "next";
 import type { ComponentType, ReactNode } from "react";
-import { ArrowRight, Clock, FileText, Mail, MapPin, Phone, Route } from "lucide-react";
+import { ArrowRight, Clock, FileText, HelpCircle, Linkedin, Mail, MapPin, Phone, Route } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
 import { ContactForm } from "@/components/sections/ContactForm";
 import { SectionHeader } from "@/components/ui/SectionHeader";
 import { contactFaqItems } from "@/data/faq";
 import { mediaConfig } from "@/data/mediaConfig";
+import { siteConfig } from "@/data/siteConfig";
 
 export const metadata: Metadata = {
   title: "Contact et demande de devis",
@@ -26,47 +27,81 @@ const mapsEmbedUrl = `https://www.google.com/maps?q=${encodedAddress}&output=emb
 const itineraryUrl = `https://www.google.com/maps/dir/?api=1&destination=${encodedAddress}`;
 const phoneHref = `tel:${contactDetails.phone.replace(/\s/g, "")}`;
 const emailHref = `mailto:${contactDetails.email}`;
+const linkedinUrl = siteConfig.social.linkedinUrl;
+
+const quickNavItems = [
+  { href: "#demande-devis", label: "Demande de devis", Icon: FileText },
+  { href: "#nous-trouver", label: "Nous trouver", Icon: MapPin },
+  { href: "#questions-frequentes", label: "Questions fréquentes", Icon: HelpCircle }
+];
 
 export default function ContactPage() {
   return (
     <>
-      <section className="bg-white pb-10 pt-12 sm:pb-12 sm:pt-16">
+      <section className="bg-white py-8 sm:py-10">
         <div className="page-shell">
-          <div className="relative overflow-hidden rounded-lg border border-line bg-paper px-6 py-10 shadow-sm sm:px-8 lg:px-10">
+          <div className="relative min-h-[300px] overflow-hidden rounded-lg bg-deepblue text-white shadow-soft sm:min-h-[340px] lg:min-h-[44vh]">
             <Image
-              src={mediaConfig.logos.mark.path}
-              alt=""
-              width={92}
-              height={198}
-              aria-hidden="true"
-              className="absolute right-6 top-6 h-28 w-auto opacity-[0.06]"
+              src={mediaConfig.afterSales.path}
+              alt={mediaConfig.afterSales.alt}
+              fill
+              priority
+              sizes="100vw"
+              className="object-cover"
+              style={{ objectPosition: "center center" }}
             />
-            <div className="relative max-w-3xl">
-              <p className="text-sm font-black uppercase text-electric">Contact</p>
-              <h1 className="mt-4 text-4xl font-black leading-tight text-deepblue sm:text-5xl">
-                Parlons de votre projet électrique.
-              </h1>
-              <p className="mt-5 max-w-2xl text-lg leading-8 text-muted">
-                Une demande de devis, une question technique ou un projet à étudier ? Notre équipe est disponible pour vous accompagner.
-              </p>
-              <Link
-                href="#demande-devis"
-                className="focus-ring mt-8 inline-flex min-h-12 items-center justify-center rounded-md bg-electric px-6 py-3 font-bold text-deepblue transition hover:bg-deepblue hover:text-white"
-              >
-                Demander un devis gratuit
-                <ArrowRight aria-hidden="true" className="ml-2 h-5 w-5" />
-              </Link>
+            <div className="absolute inset-0 bg-deepblue/66" />
+            <div className="absolute inset-0 bg-[linear-gradient(90deg,rgba(18,56,33,0.95),rgba(18,56,33,0.64),rgba(18,56,33,0.2))]" />
+            <div className="relative z-10 flex min-h-[300px] items-center px-6 py-10 sm:min-h-[340px] sm:px-8 lg:min-h-[44vh] lg:px-12">
+              <div className="max-w-3xl">
+                <p className="text-sm font-black uppercase text-electric">CONTACT</p>
+                <h1 className="mt-4 text-4xl font-black leading-tight sm:text-5xl">
+                  Parlons de votre projet électrique.
+                </h1>
+                <p className="mt-5 max-w-2xl text-lg leading-8 text-white/82">
+                  Une demande de devis, une question technique ou un projet à étudier ? Notre équipe est disponible pour vous accompagner.
+                </p>
+                <Link
+                  href="#demande-devis"
+                  className="focus-ring mt-8 inline-flex min-h-12 items-center justify-center rounded-md bg-electric px-6 py-3 font-bold text-deepblue transition hover:bg-white"
+                >
+                  Demander un devis gratuit
+                  <ArrowRight aria-hidden="true" className="ml-2 h-5 w-5" />
+                </Link>
+                <p className="mt-4 text-sm font-semibold text-white/70">
+                  Devis gratuit · Localisation · Questions fréquentes
+                </p>
+              </div>
             </div>
           </div>
         </div>
       </section>
 
-      <section id="demande-devis" className="scroll-mt-24 bg-white pb-20">
+      <nav aria-label="Navigation rapide sur la page Contact" className="bg-white pb-6">
+        <div className="page-shell">
+          <div className="overflow-x-auto pb-1">
+            <div className="flex min-w-max gap-3 sm:min-w-0 sm:justify-center lg:justify-start">
+              {quickNavItems.map(({ href, label, Icon }) => (
+                <Link
+                  key={href}
+                  href={href}
+                  className="focus-ring inline-flex min-h-11 items-center justify-center rounded-full border border-line bg-white px-4 py-2 text-sm font-bold text-deepblue shadow-sm transition hover:border-electric hover:bg-electric/10"
+                >
+                  <Icon aria-hidden="true" className="mr-2 h-4 w-4 text-electric" />
+                  {label}
+                </Link>
+              ))}
+            </div>
+          </div>
+        </div>
+      </nav>
+
+      <section id="demande-devis" className="scroll-mt-28 bg-white pb-20 pt-4">
         <div className="page-shell grid gap-8 lg:grid-cols-[1.12fr_0.88fr] lg:items-start">
           <div className="min-w-0">
             <SectionHeader
               eyebrow="Demande de devis"
-              title="Parlez-nous de votre projet"
+              title="Demandez votre devis gratuit"
               description="Décrivez votre besoin et joignez vos documents techniques si nécessaire. Notre équipe vous répondra avec une solution adaptée."
             />
             <div className="mt-8">
@@ -144,16 +179,25 @@ export default function ContactPage() {
                   Obtenir l'itinéraire
                 </a>
               </div>
+              <a
+                href={linkedinUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="focus-ring mt-5 inline-flex items-center rounded-md text-sm font-semibold text-white/72 transition hover:text-white"
+              >
+                <Linkedin aria-hidden="true" className="mr-2 h-4 w-4 text-electric" />
+                Suivre BT Power IDF sur LinkedIn
+              </a>
             </div>
           </aside>
         </div>
       </section>
 
-      <section className="bg-paper py-20">
+      <section id="nous-trouver" className="scroll-mt-28 bg-paper py-20">
         <div className="page-shell">
           <SectionHeader
             eyebrow="Localisation"
-            title="Nous trouver à Frépillon"
+            title="Nous trouver"
             description="BT Power IDF est situé dans le Val-d'Oise, avec un accès simple pour préparer un rendez-vous ou organiser un échange technique."
           />
           <div className="mt-8 overflow-hidden rounded-lg border border-line bg-white shadow-sm">
@@ -180,12 +224,12 @@ export default function ContactPage() {
         </div>
       </section>
 
-      <section className="bg-white py-20">
+      <section id="questions-frequentes" className="scroll-mt-28 bg-white py-20">
         <div className="page-shell">
           <SectionHeader
             eyebrow="FAQ"
-            title="Vos questions fréquentes"
-            description="Les réponses essentielles avant de transmettre vos éléments techniques ou de demander un devis."
+            title="Questions fréquentes avant votre demande"
+            description="Retrouvez les réponses aux principales questions avant de démarrer votre projet."
           />
           <div className="mt-10 grid gap-4 lg:grid-cols-2">
             {contactFaqItems.map((item) => (
@@ -199,20 +243,6 @@ export default function ContactPage() {
                 <p className="mt-4 leading-8 text-muted">{item.answer}</p>
               </details>
             ))}
-          </div>
-
-          <div className="mt-10 flex flex-col gap-5 rounded-lg border border-line bg-paper p-6 sm:flex-row sm:items-center sm:justify-between sm:p-8">
-            <div>
-              <h2 className="text-2xl font-black leading-tight text-deepblue">Un projet à étudier ?</h2>
-              <p className="mt-2 leading-7 text-muted">Envoyez vos premiers éléments, même si la solution n'est pas encore totalement définie.</p>
-            </div>
-            <Link
-              href="#demande-devis"
-              className="focus-ring inline-flex min-h-12 shrink-0 items-center justify-center rounded-md bg-electric px-6 py-3 font-bold text-deepblue transition hover:bg-deepblue hover:text-white"
-            >
-              Demander un devis gratuit
-              <ArrowRight aria-hidden="true" className="ml-2 h-5 w-5" />
-            </Link>
           </div>
         </div>
       </section>

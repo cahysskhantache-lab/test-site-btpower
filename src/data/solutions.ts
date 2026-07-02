@@ -26,8 +26,8 @@ export const solutions: Solution[] = [
     slug: "tableaux-electriques",
     title: "Tableaux électriques",
     description:
-      "Conception et installation de tableaux électriques adaptés aux besoins du projet.",
-    useCases: ["Distribution électrique", "Organisation des circuits", "Adaptation aux contraintes du site"],
+      "Conception et fabrication de tableaux électriques adaptés aux besoins du projet.",
+    useCases: ["Distribution électrique", "Organisation des circuits", "Adaptation aux contraintes d'implantation"],
     benefits: ["Solution lisible", "Configuration adaptée", "Base évolutive"]
   },
   {

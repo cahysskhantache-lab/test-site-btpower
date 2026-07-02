@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
-import { CheckCircle2, ClipboardCheck, Wrench } from "lucide-react";
+import { ArrowRight, CheckCircle2, ClipboardCheck, Wrench } from "lucide-react";
 import Image from "next/image";
-import { CTASection } from "@/components/sections/CTASection";
+import Link from "next/link";
 import { ImagePageHero } from "@/components/sections/ImagePageHero";
 import { SectionHeader } from "@/components/ui/SectionHeader";
 import { knowHowContent } from "@/data/knowHow";
@@ -125,7 +125,46 @@ export default function KnowHowPage() {
         </div>
       </section>
 
-      <CTASection />
+      <section className="bg-white py-20">
+        <div className="page-shell">
+          <div className="grid overflow-hidden rounded-lg bg-deepblue text-white shadow-soft lg:grid-cols-[0.95fr_1.05fr] lg:items-stretch">
+            <div className="relative min-h-[360px] bg-paper sm:min-h-[430px] lg:min-h-[520px]">
+              <Image
+                src={mediaConfig.afterSales.path}
+                alt={mediaConfig.afterSales.alt}
+                fill
+                sizes="(min-width: 1024px) 44vw, 100vw"
+                className="object-cover"
+                style={{ objectPosition: "center center" }}
+              />
+            </div>
+            <div className="relative flex flex-col justify-center p-6 sm:p-8 lg:p-10">
+              <Image
+                src={mediaConfig.logos.mark.path}
+                alt=""
+                width={76}
+                height={164}
+                aria-hidden="true"
+                className="absolute right-6 top-6 h-20 w-auto opacity-10"
+              />
+              <p className="text-sm font-black uppercase text-electric">Suivi client</p>
+              <h2 className="mt-4 text-3xl font-black leading-tight sm:text-4xl">
+                Un accompagnement qui se poursuit après la livraison
+              </h2>
+              <p className="mt-5 max-w-2xl text-lg leading-8 text-white/76">
+                Après la livraison de votre équipement, BT Power IDF reste disponible pour répondre aux besoins liés à votre projet et accompagner ses clients dans la durée.
+              </p>
+              <Link
+                href="/contact#demande-devis"
+                className="focus-ring mt-8 inline-flex min-h-12 w-fit items-center justify-center rounded-md bg-electric px-6 py-3 font-bold text-deepblue transition hover:bg-white"
+              >
+                Contacter notre équipe
+                <ArrowRight aria-hidden="true" className="ml-2 h-5 w-5" />
+              </Link>
+            </div>
+          </div>
+        </div>
+      </section>
     </>
   );
 }

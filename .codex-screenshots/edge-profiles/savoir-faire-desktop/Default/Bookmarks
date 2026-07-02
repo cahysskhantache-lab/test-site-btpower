@@ -1,0 +1,105 @@
+{
+   "checksum": "42e607f933de80cfda6cda42b868206d",
+   "roots": {
+      "bookmark_bar": {
+         "children": [ {
+            "date_added": "13245691701278645",
+            "date_last_used": "0",
+            "guid": "b332a248-6d24-40f3-8cf0-5d52e179564e",
+            "id": "7",
+            "name": "Google",
+            "show_icon": false,
+            "source": "sync",
+            "type": "url",
+            "url": "https://www.google.fr/",
+            "visit_count": 0
+         }, {
+            "date_added": "13274652245780883",
+            "date_last_used": "0",
+            "guid": "0f420b51-f391-4764-95ed-b3b47db6ad82",
+            "id": "8",
+            "name": "ZT-ZA - Zone Telechargement Zone Annuaire gratuit (ZT +ZA)",
+            "show_icon": false,
+            "source": "sync",
+            "type": "url",
+            "url": "https://www.zone-annuaire.work/",
+            "visit_count": 0
+         }, {
+            "children": [ {
+               "date_added": "13243170337881347",
+               "date_last_used": "0",
+               "guid": "d4a9f003-0a5c-4d74-ba87-c1d8d32b4921",
+               "id": "10",
+               "name": "Lenovo Support",
+               "show_icon": false,
+               "source": "sync",
+               "type": "url",
+               "url": "http://support.lenovo.com/",
+               "visit_count": 0
+            }, {
+               "date_added": "13243170337896974",
+               "date_last_used": "0",
+               "guid": "e33f8f8c-92b2-469f-ae1b-1d80604cb128",
+               "id": "11",
+               "name": "Lenovo",
+               "show_icon": false,
+               "source": "sync",
+               "type": "url",
+               "url": "http://www.lenovo.com/",
+               "visit_count": 0
+            } ],
+            "date_added": "13289685681991278",
+            "date_last_used": "0",
+            "date_modified": "0",
+            "guid": "b106323a-9733-47cc-8257-cf91c5b166d4",
+            "id": "9",
+            "name": "Lenovo",
+            "source": "unknown",
+            "type": "folder"
+         } ],
+         "date_added": "13427452733417115",
+         "date_last_used": "0",
+         "date_modified": "13274652245780883",
+         "guid": "0bc5d13f-2cba-5d74-951f-3f233fe6c908",
+         "id": "1",
+         "name": "Barre des favoris",
+         "source": "unknown",
+         "type": "folder"
+      },
+      "other": {
+         "children": [  ],
+         "date_added": "13427452733417115",
+         "date_last_used": "0",
+         "date_modified": "0",
+         "guid": "82b081ec-3dd3-529c-8475-ab6c344590dd",
+         "id": "2",
+         "name": "Autres favoris",
+         "source": "unknown",
+         "type": "folder"
+      },
+      "synced": {
+         "children": [  ],
+         "date_added": "13427452733417115",
+         "date_last_used": "0",
+         "date_modified": "0",
+         "guid": "4cf2e351-0e85-532b-bb37-df045d8f8d0f",
+         "id": "3",
+         "name": "Favoris de l’appareil mobile",
+         "source": "unknown",
+         "type": "folder"
+      },
+      "workspaces_v2": {
+         "children": [  ],
+         "date_added": "13427452733417115",
+         "date_last_used": "0",
+         "date_modified": "0",
+         "guid": "75aa6670-344f-549d-b742-660f029506ab",
+         "id": "5",
+         "name": "Espaces de travail",
+         "source": "unknown",
+         "type": "folder"
+      }
+   },
+   "sync_metadata": "CjEKDgiIgQISCEeU1iGfAQAAEgAqGFZWMmVqK0gxUDhwa1JWNFp0NDE4ZkE9PUgDoAYMEo4BCAMSiQEKHG5qZ0R1ODhlQ3J2WHA4NnBEN2ZIR2NxRnA4OD0SJDEzYzdmY2Q0LTQ5NGItNWI4Yy1hN2E2LWU5ODYzNTdiNDk2YxgAIAAoADCx2cv3xi44veKh8vAvQL3iofLwL0oceXpOQjAxY241NEE3Y1JVMHVUKy9QZ21UdFVvPVoAZQAAAADCPgJgABKsAQgLEqcBChw4dVV2MnhhL2puUlFBVlJTRDVTeDd0aXhJSTQ9EiRlMzNmOGY4Yy05MmIyLTQ2OWYtYWUxYi0xZDgwNjA0Y2IxMjgYACAAKAAwv6OQiNwwOMqkkIjcMEDKpJCI3DBKHERRMUdOdnhPZUFPcExoMmFqK01iWGlObDBkOD1aHiIcYTBTdldTVHllU2JlclE3SHJsQXFaZFNMYWlBPWUAAAAAwj4CYAUSrAEIChKnAQocL1pWbENGeTZ5UThGa24ySTdpVmZuU3hrbkVnPRIkZDRhOWYwMDMtMGE1Yy00ZDc0LWJhODctYzFkOGQzMmI0OTIxGAAgACgAML6jkIjcMDiqpJCI3DBAqqSQiNwwShx6WEx2UEVxUTFBRVNwODNpWldmL3JOZ2FxdTg9Wh4iHFB2Y2twbWF5TDc0UUE2cE9XS1RTNGFDamtBdz1lAAAAAMI+AmAFEq0BCAkSqAEKHGhaSGFTYXBXeVN5eXRka0Ntdkc4YmpCYW5PZz0SJGIxMDYzMjNhLTk3MzMtNDdjYy04MjU3LWNmOTFjNWIxNjZkNBgAIAAoADC9o5CI3DA4i6SQiNwwQIukkIjcMEocZEJITjZTTmV5cndIZVdrcy9vZGljZVFjcytzPVofIh3baSs0N1hnVjBnNzF3Y2tBT0FKQnZ5VG1UanE4PWUAAAAAwj4CYAASjgEIARKJAQoceXhKLzZmdmtlY3I3a3A1RVF6QjR0V0xwZGJFPRIkMmQ3MzliZTktNDViNy01NDIzLWE5Y2ItOGZmMGQ0OGRhM2Y0GAAgACgAMKzZy/fGLjjf4aHy8C9A3+Gh8vAvShxhUkNXTGdoRjliNUlucUtJRHZ1Si9qdlFrRmM9WgBlAAAAAMI+AmAAEq0BCAgSqAEKHGJkRGR1cTFMaVFCcGFIZEdiK2NBU3o2cnFTdz0SJDBmNDIwYjUxLWYzOTEtNDc2NC05NWVkLWIzYjQ3ZGI2YWQ4MhgAIAAoADC8o5CI3DA47KOQiNwwQOyjkIjcMEocUEdCYnRQeGZVZjVMU3M5Y3FRdXlrUVI1Z3BFPVofIh23ZFlTOFp3bWppOTBhNmxJa0NWNHBoTTFRbWxRPWW6qtzUwj4CYAUSjgEIAhKJAQocWWNTVG9udkVTUHdxQ3M0TDJjclZodjY4TDk4PRIkOTgyMDNiMWItMTgxZC01ZDg1LWE5MmItYjBkZTJiN2Q1YTMyGAAgACgAMK3Zy/fGLjju4aHy8C9A7uGh8vAvShxvUFZraHdCUmJWNjVLQ1dSMitJT05IV29PdTg9WgBlAAAAAMI+AmAAEqwBCAcSpwEKHGZBZWdTZlBYOFpjeEVqY2NJTFVaeCtLdS93MD0SJGIzMzJhMjQ4LTZkMjQtNDBmMy04Y2YwLTVkNTJlMTc5NTY0ZRgAIAAoADDAo5CI3DA4mKWQiNwwQJilkIjcMEocTDNzY3BrQUlUMEs3ZmtHWVdvcnlyaERvVGFVPVoeIhxubGRRZktwdkltWVhNQ0JnZHd6QkVnS0lYRjQ9ZRAw/+TCPgJgBRKOAQgFEokBChx3UkJyWkwrNlBBOWF2S2dqTlA3SlhETGNmdnM9EiQ2OWY2MzVjMS05NTk0LTVkYzYtYTBhZi0zMDUwMjA5MjFkODMYACAAKAAw78/M458zOM3QzOOfM0DN0MzjnzNKHG5teDY1c1FEdnhJOFRnRWV2K0ErbnR0b1NuND1aAGUAAAAAwj4CYAAwADgA",
+   "version": 1
+}

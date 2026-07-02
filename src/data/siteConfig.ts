@@ -1,16 +1,19 @@
 export const siteConfig = {
   name: "BT Power IDF",
-  tagline: "Conception et installation de tableaux électriques",
+  tagline: "Conception, fabrication et livraison d'armoires et coffrets électriques",
   description:
-    "BT Power IDF conçoit et installe des tableaux électriques adaptés aux projets tertiaires et industriels.",
+    "BT Power IDF conçoit, fabrique et livre des armoires et coffrets électriques destinés aux installateurs et à leurs projets tertiaires, industriels, logement ou secteur public.",
   url: "https://example.com",
   locale: "fr_FR",
   contact: {
-    contactEmail: "s.medaric@btpower-idf.fr",
+    contactEmail: "contact@btpower-idf.fr",
     phone: "06 74 45 10 98",
     addressLines: ["2 avenue Louis Blériot", "95740 Frépillon"],
-    hours: ["Horaires à confirmer"],
+    hours: ["Du lundi au vendredi — 7h30 à 17h00"],
     formEndpoint: ""
+  },
+  social: {
+    linkedinUrl: "https://fr.linkedin.com/in/soci%C3%A9t%C3%A9-bt-power-idf-6849a8213"
   },
   analytics: {
     googleAnalyticsId: "",
@@ -36,7 +39,7 @@ export const siteConfig = {
   hero: {
     title: "Des tableaux électriques pensés pour vos projets.",
     subtitle:
-      "BT Power IDF conçoit et installe des solutions adaptées aux projets tertiaires et industriels."
+      "BT Power IDF conçoit, fabrique et livre des armoires et coffrets électriques adaptés aux projets tertiaires et industriels."
   },
   values: [
     {
@@ -84,7 +87,7 @@ export const siteConfig = {
   ],
   company: {
     intro:
-      "BT Power IDF conçoit et installe des tableaux électriques pour accompagner les projets tertiaires et industriels avec une approche concrète, humaine et technique.",
+      "BT Power IDF conçoit, fabrique et livre des armoires et coffrets électriques pour accompagner les installateurs et leurs projets tertiaires, industriels, logement ou secteur public avec une approche concrète, humaine et technique.",
     mission:
       "Apporter des solutions de distribution électrique claires, adaptées et réalisées avec soin.",
     commitments: [

@@ -1,0 +1,2 @@
+{"logTime": "0702/075855", "correlationVector":"mXFvkuaf6aXnLN+Nv6wtKj.1","action":"SyncServerConnectionManagerRequest", "result":"SYNC_SERVER_OK", "context":{"environment":"Prod_germanywestcentral_prod-s01-010-eur-germanywestcentral", "migrationStage":"NotStarted", "server":"akswtt00300000j"}}
+{"logTime": "0702/075855", "correlationVector":"mXFvkuaf6aXnLN+Nv6wtKj.2","action":"ProcessGetUpdates", "result":"Done", "context":{"dataType":"Encryption Keys", "deleted":"0", "process_failed_to_decrypt":"0", "process_pending_decryption":"0", "process_success":"1", "total":"1"}}

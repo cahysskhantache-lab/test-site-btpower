@@ -30,7 +30,7 @@ export default function CompanyPage() {
             <SectionHeader
               eyebrow="Présentation"
               title="Une entreprise spécialisée dans les armoires et coffrets électriques"
-              description="BT Power IDF est spécialisée dans la conception et la réalisation d'armoires et de coffrets électriques destinés aux projets tertiaires et industriels."
+              description="BT Power IDF est spécialisée dans la conception, la fabrication et la livraison d'armoires et de coffrets électriques destinés aux installateurs et à leurs projets tertiaires, industriels, logement ou secteur public."
             />
             <div className="mt-7 grid gap-5 text-lg leading-8 text-muted">
               <p>

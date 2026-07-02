@@ -3,6 +3,7 @@ import { ArrowRight, CheckCircle2 } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
 import { CTASection } from "@/components/sections/CTASection";
+import { ImagePageHero } from "@/components/sections/ImagePageHero";
 import { SectionHeader } from "@/components/ui/SectionHeader";
 import { mediaConfig } from "@/data/mediaConfig";
 import { featuredSolutions, solutions } from "@/data/solutions";
@@ -16,31 +17,13 @@ export const metadata: Metadata = {
 export default function SolutionsPage() {
   return (
     <>
-      <section className="bg-white py-16 sm:py-20">
-        <div className="page-shell grid gap-10 lg:grid-cols-[0.9fr_1.1fr] lg:items-center">
-          <div className="max-w-3xl">
-            <p className="text-sm font-black uppercase text-deepblue">Nos solutions</p>
-            <h1 className="mt-4 text-4xl font-black leading-tight text-deepblue sm:text-5xl">
-              Des armoires et coffrets électriques adaptés à vos projets
-            </h1>
-            <p className="mt-6 text-lg leading-8 text-muted sm:text-xl">
-              BT Power IDF conçoit et réalise des équipements électriques adaptés aux besoins des projets tertiaires et industriels, en tenant compte des contraintes techniques et de l'environnement d'installation.
-            </p>
-          </div>
-          <div className="relative min-h-[420px] overflow-hidden rounded-lg border border-line bg-deepblue shadow-soft">
-            <Image
-              src={mediaConfig.solutionsHeader.path}
-              alt={mediaConfig.solutionsHeader.alt}
-              fill
-              sizes="(min-width: 1024px) 52vw, 100vw"
-              className="object-cover"
-              style={{ objectPosition: "center center" }}
-              priority
-            />
-            <div className="absolute inset-0 bg-gradient-to-t from-deepblue/62 via-transparent to-transparent" />
-          </div>
-        </div>
-      </section>
+      <ImagePageHero
+        eyebrow="Nos solutions"
+        title="Des armoires et coffrets électriques adaptés à vos projets"
+        description="BT Power IDF conçoit, fabrique et livre des équipements électriques adaptés aux besoins des projets tertiaires et industriels, en tenant compte des contraintes techniques et de l'environnement d'implantation."
+        image={mediaConfig.solutionsHeader}
+        imagePosition="center center"
+      />
 
       <section className="bg-paper py-20">
         <div className="page-shell">

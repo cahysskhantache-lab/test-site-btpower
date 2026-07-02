@@ -99,7 +99,7 @@ export default function MethodPage() {
                 Après la livraison, BT Power IDF reste disponible pour vous accompagner selon les besoins de votre projet.
               </p>
               <Link
-                href="/contact"
+                href="/contact#demande-devis"
                 className="focus-ring mt-8 inline-flex min-h-12 w-fit items-center justify-center rounded-md bg-electric px-6 py-3 font-bold text-deepblue transition hover:bg-white"
               >
                 Contacter notre équipe

@@ -1,4 +1,4 @@
-import { Mail, MapPin, Phone } from "lucide-react";
+import { Linkedin, Mail, MapPin, Phone } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
 import { mediaConfig } from "@/data/mediaConfig";
@@ -72,6 +72,17 @@ export function SiteFooter() {
             <li className="flex gap-3">
               <MapPin aria-hidden="true" className="mt-1 h-4 w-4 text-electric" />
               <span>{siteConfig.contact.addressLines.join(", ")}</span>
+            </li>
+            <li className="flex gap-3">
+              <Linkedin aria-hidden="true" className="mt-1 h-4 w-4 text-electric" />
+              <a
+                className="focus-ring rounded-md transition hover:text-white"
+                href={siteConfig.social.linkedinUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                LinkedIn
+              </a>
             </li>
           </ul>
         </div>

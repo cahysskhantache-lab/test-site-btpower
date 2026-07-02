@@ -24,7 +24,7 @@ export function CTASection({ title = "Un projet de tableau électrique ?", butto
           </div>
           <div className="flex flex-col gap-3 sm:flex-row lg:flex-col">
             <Link
-              href="/contact"
+              href="/contact#demande-devis"
               className="focus-ring inline-flex min-h-12 items-center justify-center rounded-md bg-electric px-6 py-3 font-bold text-deepblue transition hover:bg-white"
             >
               {buttonLabel}

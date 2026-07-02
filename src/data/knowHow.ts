@@ -15,7 +15,7 @@ export const knowHowContent = {
     {
       title: "Montage des composants",
       description:
-        "Les composants sont installés avec soin selon les exigences techniques et l'organisation prévue pour le projet.",
+        "Les composants sont montés avec soin selon les exigences techniques et l'organisation prévue pour le projet.",
       imagePosition: "center center"
     },
     {

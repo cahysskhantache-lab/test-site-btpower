@@ -1,6 +1,7 @@
 import { ArrowRight, Award, Building2, Factory, Home, Landmark, PlayCircle } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
+import { CTASection } from "@/components/sections/CTASection";
 import { SectionHeader } from "@/components/ui/SectionHeader";
 import { mediaConfig } from "@/data/mediaConfig";
 import { homeMethodSteps } from "@/data/method";
@@ -212,7 +213,7 @@ export default function HomePage() {
         <div className="page-shell">
           <SectionHeader
             eyebrow="Secteurs"
-            title="Des contextes d'intervention identifiés"
+            title="Des contextes de projet identifiés"
             description="BT Power IDF étudie des équipements électriques adaptés aux environnements tertiaires, industriels, résidentiels collectifs ou publics."
             inverted
           />
@@ -284,40 +285,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      <section className="bg-white py-20">
-        <div className="page-shell">
-          <div className="relative min-h-[460px] overflow-hidden rounded-lg bg-deepblue text-white shadow-soft">
-            <Image
-              src={mediaConfig.afterSales.path}
-              alt={mediaConfig.afterSales.alt}
-              fill
-              sizes="100vw"
-              className="object-cover"
-              style={{ objectPosition: "center center" }}
-            />
-            <div className="absolute inset-0 bg-deepblue/64" />
-            <div className="absolute inset-0 bg-[linear-gradient(90deg,rgba(18,56,33,0.96),rgba(18,56,33,0.68),rgba(18,56,33,0.18))]" />
-            <div className="relative z-10 flex min-h-[460px] items-center px-6 py-12 sm:px-8 lg:px-12">
-              <div className="max-w-3xl">
-                <p className="text-sm font-black uppercase text-electric">Contact</p>
-                <h2 className="mt-4 text-4xl font-black leading-tight sm:text-5xl">
-                  Parlons de votre projet électrique.
-                </h2>
-                <p className="mt-6 max-w-2xl text-lg leading-8 text-white/82 sm:text-xl">
-                  Une demande de devis, une question technique ou un projet à étudier ? Nos équipes sont disponibles pour vous accompagner.
-                </p>
-                <Link
-                  href="/contact#demande-devis"
-                  className="focus-ring mt-8 inline-flex min-h-12 items-center justify-center rounded-md bg-electric px-6 py-3 font-bold text-deepblue transition hover:bg-white"
-                >
-                  Demander un devis gratuit
-                  <ArrowRight aria-hidden="true" className="ml-2 h-5 w-5" />
-                </Link>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
+      <CTASection title="Un projet d'armoire ou de coffret électrique ?" buttonLabel="Demander un devis gratuit" />
     </>
   );
 }
