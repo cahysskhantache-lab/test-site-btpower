@@ -57,12 +57,12 @@ export default function HomePage() {
                   <Image
                     src={mediaConfig.logos.mark.path}
                     alt=""
-                    width={16}
-                    height={35}
+                    width={24}
+                    height={24}
                     aria-hidden="true"
                     className="h-6 w-auto"
                   />
-                  BT Power IDF
+                  BT IDF
                 </div>
                 <h1 className="font-heading text-4xl font-black leading-tight sm:text-5xl lg:text-6xl">
                   La précision électrique,
@@ -98,7 +98,7 @@ export default function HomePage() {
         <div className="page-shell">
           <SectionHeader
             eyebrow="Vidéo"
-            title="Découvrez BT Power IDF"
+            title="Découvrez BT IDF"
             description="Une présentation sobre de l'atelier, des gestes techniques et du soin porté aux tableaux électriques."
           />
           <div className="mt-10 overflow-hidden rounded-lg border border-line bg-deepblue shadow-soft">
@@ -130,8 +130,8 @@ export default function HomePage() {
             <Image
               src={mediaConfig.logos.mark.path}
               alt=""
-              width={80}
-              height={172}
+              width={96}
+              height={96}
               aria-hidden="true"
               className="absolute right-6 top-6 h-24 w-auto opacity-10"
             />
@@ -140,8 +140,20 @@ export default function HomePage() {
               Une approche technique, réactive et proche du terrain
             </h2>
             <p className="mt-5 max-w-3xl text-lg leading-8 text-white/78">
-              BT Power IDF accompagne ses clients avec une approche à la fois technique, réactive et proche du terrain. Cette exigence se retrouve à chaque étape, de l'analyse du besoin jusqu'à la livraison.
+              BT IDF accompagne ses clients avec une approche à la fois technique, réactive et proche du terrain. Cette exigence se retrouve à chaque étape, de l'analyse du besoin jusqu'à la livraison.
             </p>
+
+            <div className="mt-6 inline-flex items-center gap-2 rounded-full border border-electric/30 bg-white/[0.06] px-4 py-2 text-sm font-black uppercase text-white/86">
+              <Image
+                src={mediaConfig.logos.mark.path}
+                alt=""
+                width={16}
+                height={16}
+                aria-hidden="true"
+                className="h-3.5 w-3.5"
+              />
+              Entreprise 100 % française
+            </div>
 
             <div className="mt-10 grid gap-7">
               {differentiators.map((item, index) => (
@@ -179,8 +191,8 @@ export default function HomePage() {
             <Image
               src={mediaConfig.logos.mark.path}
               alt=""
-              width={120}
-              height={259}
+              width={128}
+              height={128}
               aria-hidden="true"
               className="absolute -left-2 top-8 h-32 w-auto opacity-[0.06]"
             />
@@ -193,7 +205,7 @@ export default function HomePage() {
                 Un engagement responsable reconnu
               </h2>
               <p className="mt-5 max-w-3xl text-lg leading-8 text-muted">
-                En janvier 2026, BT Power IDF a obtenu la médaille de bronze EcoVadis. Cette distinction vient reconnaître une démarche d'amélioration et d'engagement en matière de responsabilité sociétale.
+                En janvier 2026, BT IDF a obtenu la médaille de bronze EcoVadis. Cette distinction vient reconnaître une démarche d'amélioration et d'engagement en matière de responsabilité sociétale.
               </p>
             </div>
             <div className="relative mx-auto aspect-square w-48 shrink-0 sm:w-60 lg:w-72">
@@ -214,7 +226,7 @@ export default function HomePage() {
           <SectionHeader
             eyebrow="Secteurs"
             title="Des contextes de projet identifiés"
-            description="BT Power IDF étudie des équipements électriques adaptés aux environnements tertiaires, industriels, résidentiels collectifs ou publics."
+            description="BT IDF étudie des équipements électriques adaptés aux environnements tertiaires, industriels, résidentiels collectifs ou publics."
             inverted
           />
           <div className="mt-10 grid gap-4 md:grid-cols-2 lg:grid-cols-4">
@@ -268,8 +280,8 @@ export default function HomePage() {
                     <Image
                       src={mediaConfig.logos.mark.path}
                       alt=""
-                      width={36}
-                      height={78}
+                      width={40}
+                      height={40}
                       aria-hidden="true"
                       className="absolute right-4 top-4 h-10 w-auto opacity-10"
                     />

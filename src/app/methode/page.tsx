@@ -10,7 +10,7 @@ import { methodSteps } from "@/data/method";
 export const metadata: Metadata = {
   title: "Notre méthode",
   description:
-    "Méthode de travail BT Power IDF : analyse, offre, préparation, fabrication, contrôle, livraison et suivi après-vente."
+    "Méthode de travail BT IDF : analyse, offre, préparation, fabrication, contrôle, livraison et suivi après-vente."
 };
 
 export default function MethodPage() {
@@ -49,8 +49,8 @@ export default function MethodPage() {
                     <Image
                       src={mediaConfig.logos.mark.path}
                       alt=""
-                      width={36}
-                      height={78}
+                      width={40}
+                      height={40}
                       aria-hidden="true"
                       className="absolute right-4 top-4 h-10 w-auto opacity-10"
                     />
@@ -83,8 +83,8 @@ export default function MethodPage() {
               <Image
                 src={mediaConfig.logos.mark.path}
                 alt=""
-                width={72}
-                height={155}
+                width={80}
+                height={80}
                 aria-hidden="true"
                 className="absolute right-6 top-6 h-20 w-auto opacity-10"
               />
@@ -96,7 +96,7 @@ export default function MethodPage() {
                 Suivi et service après-vente
               </h2>
               <p className="mt-5 max-w-2xl text-lg leading-8 text-white/76">
-                Après la livraison, BT Power IDF reste disponible pour vous accompagner selon les besoins de votre projet.
+                Après la livraison, BT IDF reste disponible pour vous accompagner selon les besoins de votre projet.
               </p>
               <Link
                 href="/contact#demande-devis"

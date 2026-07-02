@@ -21,7 +21,7 @@ export const knowHowContent = {
     {
       title: "Câblage",
       description:
-        "Le câblage est réalisé avec précision par les équipes de BT Power IDF, dans le respect des exigences techniques du projet.",
+        "Le câblage est réalisé avec précision par les équipes de BT IDF, dans le respect des exigences techniques du projet.",
       imagePosition: "center center",
       featured: true
     },

@@ -1,8 +1,8 @@
 export const siteConfig = {
-  name: "BT Power IDF",
-  tagline: "Conception, fabrication et livraison d'armoires et coffrets électriques",
+  name: "BT IDF",
+  tagline: "Conception et réalisation d'armoires électriques",
   description:
-    "BT Power IDF conçoit, fabrique et livre des armoires et coffrets électriques destinés aux installateurs et à leurs projets tertiaires, industriels, logement ou secteur public.",
+    "BT IDF conçoit, fabrique et livre des armoires et coffrets électriques destinés aux installateurs et à leurs projets tertiaires, industriels, logement ou secteur public.",
   url: "https://example.com",
   locale: "fr_FR",
   contact: {
@@ -39,7 +39,7 @@ export const siteConfig = {
   hero: {
     title: "Des tableaux électriques pensés pour vos projets.",
     subtitle:
-      "BT Power IDF conçoit, fabrique et livre des armoires et coffrets électriques adaptés aux projets tertiaires et industriels."
+      "BT IDF conçoit, fabrique et livre des armoires et coffrets électriques adaptés aux projets tertiaires et industriels."
   },
   values: [
     {
@@ -87,7 +87,7 @@ export const siteConfig = {
   ],
   company: {
     intro:
-      "BT Power IDF conçoit, fabrique et livre des armoires et coffrets électriques pour accompagner les installateurs et leurs projets tertiaires, industriels, logement ou secteur public avec une approche concrète, humaine et technique.",
+      "BT IDF conçoit, fabrique et livre des armoires et coffrets électriques pour accompagner les installateurs et leurs projets tertiaires, industriels, logement ou secteur public avec une approche concrète, humaine et technique.",
     mission:
       "Apporter des solutions de distribution électrique claires, adaptées et réalisées avec soin.",
     commitments: [

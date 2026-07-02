@@ -8,7 +8,7 @@ import { mediaConfig } from "@/data/mediaConfig";
 export const metadata: Metadata = {
   title: "L'entreprise",
   description:
-    "Présentation de BT Power IDF, PME spécialisée dans la conception et la réalisation d'armoires et de coffrets électriques."
+    "Présentation de BT IDF, PME spécialisée dans la conception et la réalisation d'armoires et de coffrets électriques."
 };
 
 const values = ["Proximité", "Qualité", "Réactivité", "Précision"];
@@ -19,7 +19,7 @@ export default function CompanyPage() {
       <ImagePageHero
         eyebrow="L'entreprise"
         title="Une équipe proche du terrain, attentive au détail"
-        description="BT Power IDF associe expertise technique, production maîtrisée et accompagnement de proximité pour concrétiser vos projets électriques."
+        description="BT IDF associe expertise technique, production maîtrisée et accompagnement de proximité pour concrétiser vos projets électriques."
         image={mediaConfig.company.group}
         imagePosition="center 45%"
       />
@@ -30,7 +30,7 @@ export default function CompanyPage() {
             <SectionHeader
               eyebrow="Présentation"
               title="Une entreprise spécialisée dans les armoires et coffrets électriques"
-              description="BT Power IDF est spécialisée dans la conception, la fabrication et la livraison d'armoires et de coffrets électriques destinés aux installateurs et à leurs projets tertiaires, industriels, logement ou secteur public."
+              description="BT IDF est spécialisée dans la conception, la fabrication et la livraison d'armoires et de coffrets électriques destinés aux installateurs et à leurs projets tertiaires, industriels, logement ou secteur public."
             />
             <div className="mt-7 grid gap-5 text-lg leading-8 text-muted">
               <p>
@@ -40,7 +40,7 @@ export default function CompanyPage() {
                 De l'analyse des documents techniques à la fabrication, aux essais et à la livraison, les équipes coordonnent chaque étape afin de proposer des équipements adaptés et conçus avec exigence.
               </p>
               <p>
-                La proximité, la qualité, la réactivité et la précision guident l'ensemble de la démarche. BT Power IDF s'appuie sur la complémentarité de ses chargés d'affaires et de ses équipes de production pour assurer un suivi cohérent, de la première demande jusqu'à la finalisation du projet.
+                La proximité, la qualité, la réactivité et la précision guident l'ensemble de la démarche. BT IDF s'appuie sur la complémentarité de ses chargés d'affaires et de ses équipes de production pour assurer un suivi cohérent, de la première demande jusqu'à la finalisation du projet.
               </p>
             </div>
           </div>
@@ -95,14 +95,25 @@ export default function CompanyPage() {
                 <Image
                   src={mediaConfig.logos.mark.path}
                   alt=""
-                  width={16}
-                  height={35}
+                  width={28}
+                  height={28}
                   aria-hidden="true"
-                  className="h-7 w-auto"
+                  className="h-5 w-5"
                 />
                 <span>{value}</span>
               </div>
             ))}
+          </div>
+          <div className="mt-10 inline-flex items-center gap-2 rounded-full border border-electric/30 bg-electric/10 px-4 py-2 text-sm font-black uppercase text-deepblue">
+            <Image
+              src={mediaConfig.logos.mark.path}
+              alt=""
+              width={16}
+              height={16}
+              aria-hidden="true"
+              className="h-3.5 w-3.5"
+            />
+            Entreprise 100 % française
           </div>
         </div>
       </section>

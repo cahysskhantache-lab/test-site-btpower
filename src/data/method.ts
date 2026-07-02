@@ -36,7 +36,7 @@ export const homeMethodSteps = [
   {
     title: "Suivi et service après-vente",
     description:
-      "Après la livraison, BT Power IDF reste disponible pour vous accompagner selon les besoins de votre projet.",
+      "Après la livraison, BT IDF reste disponible pour vous accompagner selon les besoins de votre projet.",
     imagePosition: "center center"
   }
 ];

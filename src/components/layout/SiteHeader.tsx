@@ -22,8 +22,8 @@ export function SiteHeader() {
           <Image
             src={mediaConfig.logos.primary.path}
             alt={mediaConfig.logos.primary.alt}
-            width={220}
-            height={62}
+            width={240}
+            height={60}
             priority
             className="h-auto w-[170px] sm:w-[214px]"
           />

@@ -2,7 +2,7 @@ export const homeFaqItems = [
   {
     question: "Comment est déterminé le prix d'une armoire ou d'un coffret électrique ?",
     answer:
-      "Le prix dépend notamment des dimensions, de la configuration, des composants nécessaires et des contraintes techniques du projet. BT Power IDF étudie chaque demande afin de proposer une offre adaptée."
+      "Le prix dépend notamment des dimensions, de la configuration, des composants nécessaires et des contraintes techniques du projet. BT IDF étudie chaque demande afin de proposer une offre adaptée."
   },
   {
     question: "Le devis est-il gratuit ?",
@@ -26,12 +26,12 @@ export const homeFaqItems = [
   {
     question: "Pouvez-vous proposer une solution technique lorsque le projet n'est pas encore totalement défini ?",
     answer:
-      "Oui. BT Power IDF accompagne ses clients dans la recherche d'une solution technique adaptée à leurs besoins et à leur environnement."
+      "Oui. BT IDF accompagne ses clients dans la recherche d'une solution technique adaptée à leurs besoins et à leur environnement."
   },
   {
     question: "Quels types d'équipements réalisez-vous ?",
     answer:
-      "BT Power IDF conçoit et réalise des armoires et coffrets électriques destinés notamment aux projets tertiaires et industriels."
+      "BT IDF conçoit et réalise des armoires et coffrets électriques destinés notamment aux projets tertiaires et industriels."
   },
   {
     question: "Comment demander un devis ?",

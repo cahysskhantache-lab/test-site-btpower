@@ -12,7 +12,7 @@ import { siteConfig } from "@/data/siteConfig";
 export const metadata: Metadata = {
   title: "Contact et demande de devis",
   description:
-    "Contact BT Power IDF pour une demande de devis, une question technique ou un projet d'armoire électrique à étudier."
+    "Contact BT IDF pour une demande de devis, une question technique ou un projet d'armoire électrique à étudier."
 };
 
 const contactDetails = {
@@ -113,8 +113,8 @@ export default function ContactPage() {
             <Image
               src={mediaConfig.logos.mark.path}
               alt=""
-              width={96}
-              height={207}
+              width={112}
+              height={112}
               aria-hidden="true"
               className="absolute right-6 top-6 h-28 w-auto opacity-10"
             />
@@ -130,7 +130,7 @@ export default function ContactPage() {
                 <FileText aria-hidden="true" className="h-4 w-4" />
                 Devis gratuit
               </div>
-              <h2 className="mt-5 text-3xl font-black leading-tight">Coordonnées BT Power IDF</h2>
+              <h2 className="mt-5 text-3xl font-black leading-tight">Coordonnées BT IDF</h2>
               <p className="mt-4 leading-7 text-white/76">
                 Un contact direct pour les demandes de devis, les questions techniques et le suivi de vos projets.
               </p>
@@ -186,7 +186,7 @@ export default function ContactPage() {
                 className="focus-ring mt-5 inline-flex items-center rounded-md text-sm font-semibold text-white/72 transition hover:text-white"
               >
                 <Linkedin aria-hidden="true" className="mr-2 h-4 w-4 text-electric" />
-                Suivre BT Power IDF sur LinkedIn
+                Suivre BT IDF sur LinkedIn
               </a>
             </div>
           </aside>
@@ -198,11 +198,11 @@ export default function ContactPage() {
           <SectionHeader
             eyebrow="Localisation"
             title="Nous trouver"
-            description="BT Power IDF est situé dans le Val-d'Oise, avec un accès simple pour préparer un rendez-vous ou organiser un échange technique."
+            description="BT IDF est situé dans le Val-d'Oise, avec un accès simple pour préparer un rendez-vous ou organiser un échange technique."
           />
           <div className="mt-8 overflow-hidden rounded-lg border border-line bg-white shadow-sm">
             <iframe
-              title="Localisation BT Power IDF à Frépillon"
+              title="Localisation BT IDF à Frépillon"
               src={mapsEmbedUrl}
               className="h-[360px] w-full border-0 sm:h-[430px] lg:h-[520px]"
               loading="lazy"

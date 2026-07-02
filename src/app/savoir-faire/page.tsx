@@ -10,7 +10,7 @@ import { mediaConfig } from "@/data/mediaConfig";
 export const metadata: Metadata = {
   title: "Notre savoir-faire",
   description:
-    "Savoir-faire BT Power IDF : analyse technique, préparation de l'armoire, montage des composants, câblage, finitions, essais et contrôle."
+    "Savoir-faire BT IDF : analyse technique, préparation de l'armoire, montage des composants, câblage, finitions, essais et contrôle."
 };
 
 export default function KnowHowPage() {
@@ -19,7 +19,7 @@ export default function KnowHowPage() {
       <ImagePageHero
         eyebrow="Notre savoir-faire"
         title="De l'analyse technique aux essais finaux"
-        description="BT Power IDF mobilise son expertise technique et son savoir-faire d'atelier pour concevoir, préparer, câbler et finaliser des équipements adaptés à chaque projet."
+        description="BT IDF mobilise son expertise technique et son savoir-faire d'atelier pour concevoir, préparer, câbler et finaliser des équipements adaptés à chaque projet."
         image={mediaConfig.knowHow.production[2]}
         imagePosition="center center"
       />
@@ -142,8 +142,8 @@ export default function KnowHowPage() {
               <Image
                 src={mediaConfig.logos.mark.path}
                 alt=""
-                width={76}
-                height={164}
+                width={80}
+                height={80}
                 aria-hidden="true"
                 className="absolute right-6 top-6 h-20 w-auto opacity-10"
               />
@@ -152,7 +152,7 @@ export default function KnowHowPage() {
                 Un accompagnement qui se poursuit après la livraison
               </h2>
               <p className="mt-5 max-w-2xl text-lg leading-8 text-white/76">
-                Après la livraison de votre équipement, BT Power IDF reste disponible pour répondre aux besoins liés à votre projet et accompagner ses clients dans la durée.
+                Après la livraison de votre équipement, BT IDF reste disponible pour répondre aux besoins liés à votre projet et accompagner ses clients dans la durée.
               </p>
               <Link
                 href="/contact#demande-devis"

@@ -11,7 +11,7 @@ import { featuredSolutions, solutions } from "@/data/solutions";
 export const metadata: Metadata = {
   title: "Nos solutions",
   description:
-    "Armoires et coffrets électriques BT Power IDF pour projets tertiaires et industriels."
+    "Armoires et coffrets électriques BT IDF pour projets tertiaires et industriels."
 };
 
 export default function SolutionsPage() {
@@ -20,7 +20,7 @@ export default function SolutionsPage() {
       <ImagePageHero
         eyebrow="Nos solutions"
         title="Des armoires et coffrets électriques adaptés à vos projets"
-        description="BT Power IDF conçoit, fabrique et livre des équipements électriques adaptés aux besoins des projets tertiaires et industriels, en tenant compte des contraintes techniques et de l'environnement d'implantation."
+        description="BT IDF conçoit, fabrique et livre des équipements électriques adaptés aux besoins des projets tertiaires et industriels, en tenant compte des contraintes techniques et de l'environnement d'implantation."
         image={mediaConfig.solutionsHeader}
         imagePosition="center center"
       />
@@ -30,7 +30,7 @@ export default function SolutionsPage() {
           <SectionHeader
             eyebrow="Solutions principales"
             title="Armoires et coffrets électriques"
-            description="Deux familles d'équipements présentées avec des photos réelles BT Power IDF."
+            description="Deux familles d'équipements présentées avec des photos réelles BT IDF."
           />
           <div className="mt-10 grid gap-6 lg:grid-cols-2">
             {featuredSolutions.map((solution, index) => {

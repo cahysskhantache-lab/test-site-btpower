@@ -16,8 +16,8 @@ export function SiteFooter() {
           <Image
             src={mediaConfig.logos.mark.path}
             alt=""
-            width={80}
-            height={173}
+            width={96}
+            height={96}
             aria-hidden="true"
             className="absolute -right-2 top-0 hidden h-24 w-auto opacity-10 sm:block"
           />
@@ -25,8 +25,8 @@ export function SiteFooter() {
             <Image
               src={mediaConfig.logos.footer.path}
               alt={mediaConfig.logos.footer.alt}
-              width={220}
-              height={62}
+              width={240}
+              height={60}
               className="h-auto w-[210px]"
             />
           </Link>
